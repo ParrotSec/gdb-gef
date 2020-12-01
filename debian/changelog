@@ -1,3 +1,9 @@
+gdb-gef (2020.07-parrot2) rolling-testing; urgency=medium
+
+  * Fix typo in installation path
+
+ -- Nong Hoang Tu <dmknght@parrotsec.org>  Tue, 01 Dec 2020 15:35:08 +0700
+
 gdb-gef (2020.07-parrot1) rolling-testing; urgency=medium
 
   * Add launcher
