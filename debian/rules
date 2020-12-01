@@ -20,5 +20,7 @@
 override_dh_auto_install:
 	mkdir -p debian/gdb-gef/usr/bin/
 	mkdir -p debian/gdb-gef/usr/share/gdb-gef/
+	mkdir -p debian/gdb-gef/usr/share/applications/
 	install -m 0755 debian/helperscripts/gdb-gef debian/gdb-gef/usr/bin/
 	install -m 0644 gef.py debian/gdb-gef/usr/share/gdb-gef/
+	install -m 066 debian/helperscripts/parrot-gdb-gef.desktop debian/gdb-gef/usr/share/applciations/
