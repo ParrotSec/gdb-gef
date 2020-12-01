@@ -1,3 +1,12 @@
+gdb-gef (2020.07-parrot1) rolling-testing; urgency=medium
+
+  * Add launcher
+  * Add bash script to start gdb-gef
+  * Fix description
+  * Patched missing package message (tell user install package from apt repo)
+
+ -- Nong Hoang Tu <dmknght@parrotsec.org>  Tue, 01 Dec 2020 15:32:09 +0700
+
 gdb-gef (2020.07-parrot0) rolling-testing; urgency=medium
 
   * Initial release
