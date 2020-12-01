@@ -1,0 +1,5 @@
+gdb-gef (2020.07-parrot0) rolling-testing; urgency=medium
+
+  * Initial release
+
+ -- Nong Hoang Tu <dmknght@parrotsec.org>  Tue, 01 Dec 2020 14:51:07 +0700

@@ -1,0 +1,26 @@
+Source: gdb-gef
+Section: devel
+Priority: optional
+Maintainer: Parrot Team <team@parrotsec.org>
+Uploaders: Nong Hoang Tu <dmknght@parrotsec.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+Homepage: https://gef.readthedocs.io/en/master/
+#Vcs-Browser: https://salsa.debian.org/debian/gdb-gef
+#Vcs-Git: https://salsa.debian.org/debian/gdb-gef.git
+Rules-Requires-Root: no
+
+Package: gdb-gef
+Architecture: any
+Depends: gdb, python3
+Suggests: python3-keystone
+Description: Exploit development and reverse-engineers for GDB
+ GEF (pronounced ʤɛf - "Jeff") is a set of commands for x86/64,
+ ARM, MIPS, PowerPC and SPARC to assist exploit developers and
+ reverse-engineers when using old school GDB. It provides
+ additional features to GDB using the Python API to assist
+ during the process of dynamic analysis and exploit development.
+ Application developers will also benefit from it, as GEF lifts
+ a great part of regular GDB obscurity, avoiding repeating
+ traditional commands, or bringing out the relevant information
+ from the debugging runtime.
