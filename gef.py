@@ -5574,7 +5574,8 @@ class ChangePermissionCommand(GenericCommand):
         try:
             __import__("keystone")
         except ImportError:
-            msg = "Missing `keystone-engine` package, install with: `pip install keystone-engine`."
+            #msg = "Missing `keystone-engine` package, install with: `pip install keystone-engine`."
+            msg = "Missing `keystone-engine` package, install with: `sudo apt install python3-keystone`."
             raise ImportWarning(msg)
         return
 
