@@ -14,7 +14,7 @@ Package: gdb-gef
 Architecture: any
 Depends: gdb, python3
 Suggests: python3-keystone
-Description: Exploit development and reverse-engineers for GDB
+Description: GDB Enchanced Features for exploit develpoment
  GEF (pronounced ʤɛf - "Jeff") is a set of commands for x86/64,
  ARM, MIPS, PowerPC and SPARC to assist exploit developers and
  reverse-engineers when using old school GDB. It provides
