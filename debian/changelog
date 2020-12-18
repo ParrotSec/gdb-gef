@@ -1,3 +1,9 @@
+gdb-gef (2020.07-parrot3) rolling-testing; urgency=medium
+
+  * Add watch file
+
+ -- Nong Hoang Tu <dmknght@parrotsec.orgn>  Fri, 18 Dec 2020 15:08:12 +0000
+
 gdb-gef (2020.07-parrot2) rolling-testing; urgency=medium
 
   * Fix typo in installation path
