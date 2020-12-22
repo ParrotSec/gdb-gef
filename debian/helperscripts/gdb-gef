@@ -1,2 +1,0 @@
-#!/bin/bash
-gdb --eval-command="source /usr/share/gdb-gef/gef.py" "$@"

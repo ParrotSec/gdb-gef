@@ -1,4 +1,0 @@
-version=4
-
-https://github.com/hugsy/gef/tags .*/(.+)\.tar\.gz
-
